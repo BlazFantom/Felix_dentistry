@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Наша команда</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a href="index.html" class="logo"><img src="img/logo.png" alt="" class="logo-img"></a>
+
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link active">О нас</a></li>
+                        <li class="nav-item"><a href="servises.html" class="nav-link">Услуги и цены</a></li>
+                        <li class="nav-item"><a href="team.html" class="nav-link">Наша команда</a></li>
+                        <li class="nav-item"><a href="contacts.html" class="nav-link">Контакты</a></li>
+                        <li class="nav-item"><a href="compensations.html" class="nav-link">Компенсации</a></li>
+                        <a href="tel:+79806403317" class="phone-num-header">+7 980 640 33 17</a>
+                    </ul>
+                    <button id="nav-btn" class="nav-button" onclick="nav_open()">
+                        <img id="nav-btn-img" src="img/icons/nav-open.svg" alt="Nav button">
+                    </button>
+                    <script>
+                        const nav = document.querySelector('#nav');
+                        const navBtn = document.querySelector('#nav-btn');
+                        const navBtnImg = document.querySelector('#nav-btn-img');
+
+                        function nav_open() {
+                            if (nav.classList.toggle('open')) {
+                                navBtnImg.src = "img/icons/nav-close.svg";
+                                navBtn.style.position = "fixed";
+                            } else {
+                                navBtnImg.src = 'img/icons/nav-open.svg';
+                                navBtn.style.position = "absolute";
+                            }
+                        }
+
+                    </script>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+
+        <section class="about-block-text">
+            <div class="container">
+                <div class="about-title">
+                    <h1>О нас</h1>
+                </div>
+                <div class="about-text">
+                    <img src="img/DOR08036.png" alt="">
+                    <p>Стоматологический центр «Феликс» оказывает весь спектр
+                        стоматологических услуг более 10 лет.</p><br>
+                    <p>Лечение неосложненного и осложненного кариеса,
+                        эстетические реставрации, виниры, назубные украшения.
+                        Лечение десен, заболеваний пародонта, в том числе
+                        хирургическое.</p><br>
+                    <p>Углубление преддверия полости рта, коррекция уздечек
+                        верхней и нижней губ, языка, пластика слизистых тяжей.
+                        Все виды зубосохраняющих операций, резекция верхушки
+                        корня, гемисекция, ампутация. Подготовка к протезированию,
+                        коррекция костных выступов. Удаление ретинированных и
+                        полуретинированных зубов. Имплантация имплантов
+                        различных производителей.</p><br>
+                    <p> Все виды протезирования — от высокоэстетичных безметаловых конструкций, в том числе на имплантах, бюгельного
+                        протезирования, безакриловых, нейлоновых и перекрывающих протезов до литых коронок и проверенных временем пластмассовых
+                        съемных протезов. Ремонт протезов.</p><br>
+                    <p>Мы проводим профессиональную гигиену полости рта с использованием ультразвука и аппарата Air-Flow, а так же подберем
+                        средства индивидуальной защиты для поддержания уровня гигиены полости рта в домашних условиях.</p>
+                    <p> Наши врачи предложат вам различные варианты решения как простых, так и сложных задач. В стоматологическом центре
+                        используется визиография, дающая возможность минимизировать рентгенологическую нагрузку при обследовании.</p>
+                    <p>С 2009 года Стоматологический центр «Феликс» является участником государственной программы по возмещению затрат на
+                        протезирование. Лечение по полису ДМС многих страховых компаний, включая «Альфастрахование» и «Росгосстрах».</p>
+                    <p>Оплата по банковским картам, наличный и безналичный расчет. Первичные консультации специалистов всех профилей бесплатны.
+                        Лицензия №ЛО-69-01-001412 от 08.07.2014г.</p><br>
+                    <p>Общество с ограниченной ответственностью Стоматологическая практика «Стоматологический центр Феликс»
+                        ООО СП «СЦ Феликс»<br>
+                        170003, г.Тверь, Петербургское шоссе, дом 32, корп.1 тел. 70-31-24<br>
+                        Зарегистрировано в Межрайонной инспекции Федеральной налоговой службы № 12 по Тверской области:<br>
+                        ИНН 6901048489<br>
+                        КПП 695201001<br>
+                        ОГРН 1046900010827<br>
+                        ЕГРЮЛ серия 69 № 001866705<br>
+                        Лицензия Министерства здравоохранения Тверской области № ЛО-69-01-001412 от 08.07.2014 г. :при оказании первичной, в том числе доврачебной, врачебной и специализированной, медико-санитарной помощи организуются и выполняются следующие работы (услуги): при оказании первичной доврачебной медико-санитарной помощи в амбулаторных условиях по: рентгенологии, сестринскому делу; при оказании первичной врачебной медико-санитарной помощи в амбулаторных условиях по: организации здравоохранения и общественному здоровью; при оказании первичной специализированной медико-санитарной помощи в амбулаторных условиях по: организации здравоохранения и общественному здоровью стоматологии общей практики, стоматологии ортопедической, стоматологии терапевтической, стоматологии хирургической. При проведении медицинских осмотров, медицинских освидетельствований и медицинских экспертиз организуются и выполняются следующие работы (услуги): при проведении медицинских экспертиз по: экспертизе качества медицинской помощи, экспертизе временной нетрудоспособности.</p>
+                </div>
+            </div>
+        </section>
+        <section class="documents">
+            <div class="container">
+                <h1>Названия и телефоны контролирующих органов</h1>
+                <a href="img/IMG_0943.png" target="_blank"><img src="img/IMG_0943.png" alt=""></a>
+                <div class="documents-wrapper">
+                    <a href="img/lis1.png" target="_blank"><img src="img/lis1.png" class="minimized" alt=""></a>
+                    <a href="" target="_blank"><img src="img/lis2.png" class="minimized" alt=""></a>
+                    <a href="" target="_blank"><img src="img/lis3.png" class="minimized" alt=""></a>
+                    <a href="" target="_blank"><img src="img/gos.png" class="minimized" alt=""></a>
+                    <a href="" target="_blank"><img src="img/egrul.png" class="minimized" alt=""></a>
+                    <a href="" target="_blank"><img src="img/sez-1.png" class="minimized" alt=""></a>
+                    <a href="" target="_blank"><img src="img/sez-2.png" class="minimized" alt=""></a>
+                    <a href="" target="_blank"><img src="img/svid.png" class="minimized" alt=""></a>
+                    <script>
+                        (function() {
+                            ('.minimized').click(function(event) {
+                                alert("alarm")
+                                var i_path = $(this).attr('src');
+                                ('body').append('<div id="overlay"></div><div id="magnify"><img src="' + i_path + '"><div id="close-popup"><i></i></div></div>');
+                                ('#magnify').css({
+                                    left: ($(document).width() - $('#magnify').outerWidth()) / 2,
+                                    // top: ($(document).height() - $('#magnify').outerHeight())/2 upd: 24.10.2016
+                                    top: ($(window).height() - $('#magnify').outerHeight()) / 2
+                                });
+                                ('#overlay, #magnify').fadeIn('fast');
+                            });
+
+                            ('body').on('click', '#close-popup, #overlay', function(event) {
+                                event.preventDefault();
+                                ('#overlay, #magnify').fadeOut('fast', function() {
+                                    ('#close-popup, #magnify, #overlay').remove();
+                                });
+                            });
+                        });
+
+                    </script>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Пациентам</h4>
+                    <ul>
+                        <li><a href="index.html"> Главная</a></li>
+                        <li><a href="about.html"> О нас</a></li>
+                        <li><a href="servises.html"> Услуги и цены</a></li>
+                        <li><a href="team.html"> Наша команда</a></li>
+                        <li><a href="contacts.html"> Компенсации</a></li>
+                        <li><a href="compensations.html"> Документы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Часы работы</h4>
+                    <div class="col-row">
+                        <div class="textcols-item-week">
+                            Понедельник<br>
+                            Вторник <br>
+                            Среда <br>
+                            Четверг <br>
+                            Пятница <br>
+                            Суббота <br>
+                            Воскресенье<br>
+                        </div>
+                        <div class="textcols-item-time">
+                            09:00-20:00<br>
+                            09:00-20:00<br>
+                            09:00-20:00<br>
+                            09:00-20:00<br>
+                            09:00-20:00<br>
+                            09:00-16:00<br>
+                            Выходной
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <div class="col-row">
+                        <div class="textcols-item">
+                            Телефон<br>
+                            Факс<br>
+                            Адрес<br>
+                        </div>
+                        <div class="textcols-item">
+                            <a href="tel:+79806403317" class="phone-num">+7-980-640-33-17<br></a>
+                            <a href="tel:+74822703124" class="phone-num">+7-4822-703-124<br></a>
+                            <a href="https://yandex.ru/maps/14/tver/house/peterburgskoye_shosse_32k1/Z0wYfgFgSEwPQFtsfXR2cn1rZA==/?ll=35.860198%2C56.873180&z=17.62" target="_blank">Тверь, Петербургское шоссе, д.32 корп. 1<br></a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
